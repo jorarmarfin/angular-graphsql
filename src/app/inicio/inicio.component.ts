@@ -144,6 +144,10 @@ export class InicioComponent implements OnInit {
   getNumeroaleatorio(x:number){
     return Math.floor(Math.random()*(x+1));;
   }
+  Limpiar(){
+    this.respuesta = [];
+    console.log('limpiar');
+  }
 
 
 }

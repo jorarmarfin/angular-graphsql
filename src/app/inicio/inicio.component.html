@@ -2,6 +2,7 @@
 <form autocomplete="off" (ngSubmit)="procesa(MyForm)" #MyForm="ngForm">
     <input type="text" name="email" id="email" ngModel>
     <input type="submit" value="Procesar">
+    <input type="button" value="Limpiar" (click)="Limpiar()" >
 </form>
 <p></p>
 <div style=" background-color: #c4c7c6;padding: 20px;">
